@@ -15,7 +15,7 @@ const AnimalSchema = new Schema({
     type: Date,
     default: Date.now
   },
-  class: String,
+  classes: String,
   hash: String,
   salt: String,
 }, {
